@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>About and Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+         body {
+             background-image: url("./assets/the-games-bg.jpg");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+         }
+         .screenshot1{
+            position: absolute;
+            width: 2026.27px;
+            height: 603.77px;
+            left: -287.78px;
+            top: 232.41px;
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+         }
+         .rock-paper-strategy{
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 300px;
+            right: 200px;
+         }
+     </style>
+     <body>
+         <img class="rock-paper-strategy" src="./assets/rockpaperstrategy-1600.jpg" width="50" height="50">
+         <p style="position: absolute;
+         left: 5.7%;
+         right: 76.09%;
+         top: 28.48%;
+         bottom: 68.64%;
+         
+         font-family: Arial;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 28px;
+         letter-spacing: 2px;
+         
+         color: #FFFFFF;">What's so special?</p><br>
+         <p style="position: absolute;
+         height: 73.64px;
+         left: 5.42%;
+         right: 66.01%;
+         top: calc(50% - 73.64px/2 - 133.59px);
+         
+         font-family: Arial;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 56px;
+         line-height: 64px;
+         letter-spacing: 3px;
+         text-transform: uppercase;
+         
+         color: #FFFFFF;">THE GAMES</p>
+        </body>
+    </head>
+</html>
