@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Main Screen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+         * {
+            box-sizing: border-box;
+         }
+         body {
+             background-image: url("./assets/main-bg.jpg");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+             max-width: auto;
+             max-height:auto;
+         }
+         .header-center{
+            position: absolute;
+            height: 73.12px;
+            left: 10%;
+            right: 10%;
+            top: 313.4px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 83px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: upppercase;
+            color: #FFFFFF;  
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+         }
+         .top-navigation a {
+             float:left;
+             display:block;
+             color: #FFFFFF;
+             text-align: center;
+             padding: 15px 20px;
+             text-decoration: none;
+             font-style: normal;
+             font-weight: bold;
+             font-size: 12px;
+             font-family: Open Sans;
+             text-transform: uppercase;
+             letter-spacing: 0.1em;
+             line-height: 16px;
+         }
+         .playbutton {
+            position: absolute;
+            left: 40.83%;
+            right: 41.09%;
+            top: 55.07%;
+            bottom: 38.68%;
+            background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+            border-radius: 4px;
+         }
+         .playtext a{
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            position: absolute;
+            vertical-align:middle;
+            font-family: Open Sans;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 22px;            
+            text-align: center;            
+            color: #1A1917;
+            text-decoration: none;
+         }
+         .top-nav-bg{
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: -0.03%;
+            bottom: 93%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+         }
+         /*.scrolldownbutton{
+            position: absolute;
+            width: 20.25px;
+            height: 8.17px;
+            left: 708.32px;
+            top: 898.53px;
+            border: 2px solid #FFFFFF;
+         }
+         .story-button{
+            position: absolute;
+            left: 47.66%;
+            right: 47.61%;
+            top: 91.03%;
+            bottom: 6.4%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 22px;
+            text-align: justify;
+            text-transform: uppercase;
+            color: #FFFFFF;
+         }*/
+         
+     </style>   
+    </head>
+    <body>
+        <div class="header-center">
+            <h1>PLAY TRADITIONAL GAME</h1>
+        </div>
+        <h3 style="
+            position: absolute;
+            left: 30%;
+            right: 30%;
+            top: 46.23%;
+            bottom: 50.89%;
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            text-align: center;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 2px;
+            color: #FFFFFF;">
+            Experience new traditional game play
+        </h3>
+        <div class="top-navigation">
+            <a href="#">HOME</a>
+            <a href="#">WORK</a>
+            <a href="#">CONTACT</a>
+            <a href="#">ABOUT ME</a>
+        </div>
+        <div class = playbutton>
+            <div class="playtext">
+                <a href="#">PLAY NOW</a>
+            </div>
+        </div>  
+        <div class="top-nav-bg"></div>
+        <div class="scrolldownbutton"></div>
+        <div class="story-button"></div>    
+    </body>
+</html>
